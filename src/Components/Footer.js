@@ -9,9 +9,10 @@ function Footer() {
     return (
         <footer className='footer'>
             <Container>
-                <Row className='align-items-center pt-4'>
+                <Row className='align-items-center justify-content-center'>
                     <Col sm={6}>
                         <h4>Kevin Leiva</h4>
+                        <p>Desarrollador FullStack</p>
                     </Col>
                     <Col sm={6} className="text-center text-sm-end">
                         <div className="social-icon">

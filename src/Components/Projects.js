@@ -59,7 +59,7 @@ function ProjectsComponent() {
                 <Row>
                     <Col>
                         <h2>Projectos</h2>
-                        <p>Muestra de los projectos mas recientes en los que he participado</p>
+                        <p>Desde componentes web y animaciones UI/UX hasta React.JS, Redux, y Node.JS. Echa un vistazo a mis últimos proyectos de desarrollo web.</p>
                         <Tab.Container id="projects-tabs" defaultActiveKey="first">
                             <Nav variant="pills" className='nav-pills mb-5 justify-content-center align-items-center' id='pills-tab'>
                                 <Nav.Item>

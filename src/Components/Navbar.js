@@ -47,7 +47,7 @@ function NavbarComponent() {
                             <a href="https://www.linkedin.com/in/kevin-leiva-98208a184/"><img src={navIcon1} alt="" /></a>
                            
                         </div>
-                        <button className="vvd" onClick={()=> console.log('connect')}><span>Contactame</span></button>
+                        
                     </span>
                 </Navbar.Collapse>
             </Container>
