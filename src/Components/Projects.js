@@ -31,7 +31,7 @@ function ProjectsComponent() {
         },
         {
             title: 'Fiesta Bresh',
-            description: 'Rediseño de sitio web',
+            description: 'Rediseño de sitio web y desarrollo de backend',
             image: Bresh
         },
         {
