@@ -70,7 +70,7 @@ function ProjectsComponent() {
                                 </Nav.Item>
                                 <Nav.Item>
                                     <Nav.Link eventKey="third" >
-                                        Tecnologias
+                                        Tecnologias Principales
                                     </Nav.Link>
                                 </Nav.Item>
                             </Nav>
