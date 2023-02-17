@@ -1,10 +1,11 @@
 import React from 'react'
 import { Col, Container, Row } from 'react-bootstrap'
 import { useEffect, useState } from 'react'
-import { ArrowRightCircle } from 'react-bootstrap-icons'
+import { ArrowDownCircle, ArrowRightCircle } from 'react-bootstrap-icons'
 import headerImg from '../assets/img/Code Development _Flatline.svg'
 import 'animate.css';
 import TrackVisibility from 'react-on-screen';
+import cv from './CV.pdf'
 
 function BannerComponent() {
     const [loopNumber, setLoopNumber] = useState(0);
@@ -54,7 +55,7 @@ function BannerComponent() {
                                     <span className='tagline'>Bienvenido a mi portafolio</span>
                                     <h1>{`Soy un Desarrollador `}<span className='wrap'>{text}</span></h1>
                                     <p>Estudiante de ingeniería civil en informática con mas de 3 años en experiencia en desarrollo, Actualmente trabajando como Semi-senior web developer pero siempre en busca de nuevos desafíos para seguir aumentando mi conocimiento.</p>
-                                    <button onClick={() => console.log('connect')}>Contacto <ArrowRightCircle size={25} /></button>
+                                    <button>Descargar CV<a href={cv} download='CV-KevinLeiva.PDF'><ArrowDownCircle size={25} /></a></button>
                                 </div>
                             }
                         </TrackVisibility>
