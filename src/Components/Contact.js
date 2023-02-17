@@ -36,7 +36,7 @@ export const Contact = () => {
                 <form>
                   <Row>
                     <Col size={12} md={10}>
-                      <span>En caso que te haya gustado mi perfil, proyectos o vision y quieras contactarme solo enviame un correo al gmail <strong>Kevinomg9@gmail.com</strong> y te respondere a la brevedad, Muchas Gracias.</span>
+                      <span style={{fontSize:'19px'}}>En caso que te haya gustado mi perfil, proyectos o vision y quieras contactarme solo enviame un correo al gmail <strong>Kevinomg9@gmail.com</strong> y te respondere a la brevedad, Muchas Gracias.</span>
                     </Col>
                     
                   </Row>
